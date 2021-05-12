@@ -1,0 +1,18 @@
+{
+  "name": "rescript-gentype-bug",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "Erik Rasmussen (@erikras)",
+  "license": "MIT",
+  "dependencies": {
+    "gentype": "^3.48.0",
+    "rescript": "^9.1.2"
+  }
+}
